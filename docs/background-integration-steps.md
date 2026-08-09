@@ -5,7 +5,7 @@ This project now uses an external token pipeline to keep the background system c
 ## 1) Install external tooling
 
 ```bash
-npm install -D style-dictionary @tokens-studio/sd-transforms culori
+npm install -D style-dictionary culori
 ```
 
 ## 2) Edit source-of-truth tokens
