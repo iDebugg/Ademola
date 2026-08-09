@@ -1,0 +1,20 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --color-canvas-base: #070b11;
+  --color-canvas-elevated: #0d1420;
+  --color-canvas-atmo-left: rgba(39, 103, 168, 0.18);
+  --color-canvas-atmo-right: rgba(66, 210, 180, 0.1);
+  --color-surface-1: #101a2a;
+  --color-surface-2: #162238;
+  --color-surface-3: #1b2a43;
+  --color-border-subtle: #243553;
+  --color-border-strong: #2f4468;
+  --color-text-primary: #f3f7ff;
+  --color-text-secondary: #b4c2da;
+  --color-accent-primary: #42d2b4;
+  --color-accent-secondary: #ffb05f;
+  --color-focus-ring: #ffde8b;
+}

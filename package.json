@@ -1,0 +1,36 @@
+{
+  "name": "victor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:tokens": "style-dictionary build --config style-dictionary.config.mjs",
+    "validate:tokens": "node scripts/validate-tokens.mjs",
+    "tokens:check": "npm run validate:tokens && npm run build:tokens",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^13.0.0",
+    "next": "16.3.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "tailwind-merge": "^3.6.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@tokens-studio/sd-transforms": "^2.0.3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "culori": "^4.0.2",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.0",
+    "style-dictionary": "^4.4.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

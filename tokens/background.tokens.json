@@ -1,0 +1,32 @@
+{
+  "color": {
+    "canvas": {
+      "base": { "value": "#070b11" },
+      "elevated": { "value": "#0d1420" },
+      "atmo": {
+        "left": { "value": "rgba(39, 103, 168, 0.18)" },
+        "right": { "value": "rgba(66, 210, 180, 0.1)" }
+      }
+    },
+    "surface": {
+      "1": { "value": "#101a2a" },
+      "2": { "value": "#162238" },
+      "3": { "value": "#1b2a43" }
+    },
+    "border": {
+      "subtle": { "value": "#243553" },
+      "strong": { "value": "#2f4468" }
+    },
+    "text": {
+      "primary": { "value": "#f3f7ff" },
+      "secondary": { "value": "#b4c2da" }
+    },
+    "accent": {
+      "primary": { "value": "#42d2b4" },
+      "secondary": { "value": "#ffb05f" }
+    },
+    "focus": {
+      "ring": { "value": "#ffde8b" }
+    }
+  }
+}
